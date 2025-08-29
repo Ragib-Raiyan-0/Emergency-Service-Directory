@@ -13,12 +13,12 @@
     <header class="navbar">
         <div class="logo">
             <img src="assets/logo.png" alt="Logo">
-            <span>Emergency Service</span>
+            <span>Emergency <br> Service</span>
         </div>
         <div class="nav-right">
             <div id="heart-count">0 ❤️</div>
             <div id="coin-count" style="align-items: center; display: flex; gap: 5px;">100 <img src="assets/coin.png" style="height: 18px;"></div>
-            <div id="copy-count">0 Copy</div>
+            <div id="copy-count" style="background-color: #00A63E; color: aliceblue;">0 Copy</div>
         </div>
     </header>
 
@@ -186,12 +186,16 @@
 
        
         <aside class="history">
-            <div class="history-header">
-                <h3>Call History</h3>
-                <button class="clear">Clear</button>
-            </div>
-            <ul id="call-list"></ul>
-        </aside>
+    <div class="history-header" style="display:flex; align-items:center; justify-content:space-between;">
+        <h3 style="display:flex; align-items:center; gap:8px;">
+            <img src="assets/ten-o-clock-emoji-clipart-md.png" alt="Clock Icon" style="width:24px; height:24px;">
+            Call History
+        </h3>
+        <button class="clear">Clear</button>
+    </div>
+    <ul id="call-list"></ul>
+</aside>
+
     </main>
 
     <script src="script.js"></script>
